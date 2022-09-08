@@ -1,0 +1,20 @@
+.button {
+    padding: .6rem .8rem;
+    border-radius: 100px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: var(--primary);
+    color: var(--white);
+    border: 1px solid var(--primary);
+}
+
+
+.secondary {
+    background: none;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}

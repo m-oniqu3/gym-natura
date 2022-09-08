@@ -7,11 +7,14 @@
   font-family: 'Didact Gothic', sans-serif;
 }
 
-/* font-family: 'Bebas Neue',
-cursive; */
 
 :root {
   --primary: #CFC3FF;
   --secondary: #484554;
   --white: #fff;
+}
+
+.text {
+  color: var(--white);
+  line-height: 21px;
 }

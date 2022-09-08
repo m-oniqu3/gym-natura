@@ -1,0 +1,18 @@
+.heading,
+.heading span {
+    text-transform: uppercase;
+    line-height: 98%;
+    font-family: "Bebas Neue", cursive;
+    color: var(--white);
+    letter-spacing: 2px;
+}
+
+.heading span {
+    color: var(--primary);
+}
+
+.large {
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
