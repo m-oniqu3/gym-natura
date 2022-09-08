@@ -1,0 +1,21 @@
+.intro {
+    background-image: url('../../assets/woman_in_sports_bra.png');
+    background-size: cover;
+    background-position: 30%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    /* width: 85%;
+    margin-left: auto; */
+    height: 100vh;
+}
+
+.intro__content button {
+    width: fit-content;
+}

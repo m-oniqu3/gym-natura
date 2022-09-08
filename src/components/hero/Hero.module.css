@@ -1,18 +1,10 @@
 .hero {
-    background: radial-gradient(100% 100% at 50% 0%, #484554 25.31%, #000000 100%);
-    height: 100vh;
-    position: relative;
-}
-
-.hero__image {
     background-image: url('../../assets/hero.png');
     background-size: cover;
     background-position: 68%;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 120vh;
 }
-
-
 
 .hero__content {
     width: 68%;

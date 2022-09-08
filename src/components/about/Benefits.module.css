@@ -1,0 +1,25 @@
+.benefits {
+    background-color: var(--secondary-dark);
+}
+
+.benefits__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    height: 100vh;
+}
+
+.benefits__intro button {
+    width: fit-content;
+}
+
+.benefits__image {
+    width: 100%;
+    height: 100%;
+}
+
+.benefits__image img {
+    width: 100%;
+    height: 100%;
+}
