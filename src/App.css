@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Didact+Gothic&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+/* font-family: 'Bebas Neue',
+cursive; */
+
+:root {
+  --primary: #CFC3FF;
+  --secondary: #484554;
+  --white: #fff;
+}
