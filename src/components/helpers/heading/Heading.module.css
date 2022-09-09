@@ -19,3 +19,7 @@
 .medium {
     font-size: clamp(2.3rem, 5vw, 3.5rem);
 }
+
+.small {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+}

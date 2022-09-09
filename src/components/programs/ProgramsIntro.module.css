@@ -1,0 +1,26 @@
+.intro {
+    background: linear-gradient(180deg, #000000 31.56%, #484554 100%);
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.intro__content button {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.intro__image {
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.intro__image img {
+    width: 100%;
+}
