@@ -5,11 +5,40 @@
 
 .programs__content {
     text-align: center;
+    padding: 2rem 0;
+}
+
+.programs__content h1 {
+    margin-bottom: .5rem;
 }
 
 .programs__list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
     gap: 2rem;
     padding: 2rem 0;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 500px) {
+    .programs__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .programs__content {
+        text-align: left;
+        max-width: 350px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .programs__list {
+        grid-template-columns: repeat(4, 1fr);
+        place-items: start;
+        gap: 1rem;
+    }
 }

@@ -1,6 +1,8 @@
 .program {
     width: 100%;
     height: 25rem;
+    max-width: 16rem;
+
 }
 
 .program img,
@@ -12,6 +14,7 @@
 
 .item__info {
     margin: 1.5rem 0 2rem;
+    max-width: 17rem;
 }
 
 .item__info h1 {

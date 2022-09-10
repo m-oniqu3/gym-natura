@@ -42,6 +42,7 @@
 
     .benefits__content {
         grid-column: 2/4;
+        width: 100%;
     }
 
     .benefits__image {

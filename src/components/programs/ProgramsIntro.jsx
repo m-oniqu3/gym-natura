@@ -14,8 +14,8 @@ const ProgramsIntro = () => {
 
   return (
     <section className={styled.intro}>
-      <Container>
-        <article className={styled.intro__content}>
+      <Container className={styled.intro__content}>
+        <article className={styled["intro__content--info"]}>
           <Heading className="medium" heading={heading} />
           <p className="text">
             Aliquam mattis eu semper elit non senectus proin adipiscing in.
@@ -30,7 +30,7 @@ const ProgramsIntro = () => {
           <Button className="primary">See Programs</Button>
         </article>
 
-        <figure className={styled.intro__image}>
+        <figure className={styled["intro__content--image"]}>
           <img src={womanRunning} alt="Woman running in gym attire" />
         </figure>
       </Container>

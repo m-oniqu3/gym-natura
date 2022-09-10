@@ -4,24 +4,48 @@
     padding: 3rem 0;
 }
 
-.intro__content {
+.intro__content--info {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     padding: 1rem 0;
-    margin-bottom: 1rem;
+    margin: 0 auto 1rem;
+    max-width: 350px;
 }
 
-.intro__content button {
+.intro__content--info button {
     width: fit-content;
     margin: 0 auto;
 }
 
-.intro__image {
+.intro__content--image {
     width: 100%;
     margin-top: 5rem;
 }
 
-.intro__image img {
+.intro__content--image img {
     width: 100%;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .intro__content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        gap: 2rem;
+    }
+
+    .intro__content--info {
+        order: 1;
+        text-align: left;
+    }
+
+    .intro__content--info button {
+        margin: 0;
+    }
+
+
 }
