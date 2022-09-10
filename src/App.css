@@ -19,3 +19,8 @@
   color: var(--white);
   line-height: 21px;
 }
+
+.text--dark {
+  color: var(--secondary-dark);
+  line-height: 21px;
+}

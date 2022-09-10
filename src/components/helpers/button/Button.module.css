@@ -18,3 +18,9 @@
     border: 1px solid var(--primary);
     color: var(--primary);
 }
+
+.neutral {
+    background-color: var(--secondary);
+    color: var(--white);
+    border: 1px solid var(--secondary);
+}
