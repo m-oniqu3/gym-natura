@@ -36,7 +36,7 @@
 
 .join form input {
     width: 100%;
-    padding: .5rem 1rem;
+    padding: .6rem 1rem;
     border: 1px solid var(--secondary);
     border-radius: 100px;
     outline: none;
