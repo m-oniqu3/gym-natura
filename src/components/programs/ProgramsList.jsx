@@ -7,7 +7,9 @@ import Item from "../helpers/item/Item";
 
 const ProgramsList = () => {
   const programs = classes.map((program) => {
-    return <Item key={program.id} item={program} />;
+    return (
+      <Item key={program.id} item={program} className="program" theme="light" />
+    );
   });
 
   return (

@@ -6,7 +6,14 @@ import { gymLocations } from "./gymLocations";
 
 const Locations = () => {
   const locations = gymLocations.map((location) => {
-    return <Item key={location.id} item={location} />;
+    return (
+      <Item
+        key={location.id}
+        item={location}
+        className="location"
+        theme="dark"
+      />
+    );
   });
   return (
     <section>

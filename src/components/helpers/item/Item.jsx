@@ -5,15 +5,17 @@ import Heading from "../heading/Heading";
 const Item = (props) => {
   const { image, heading, desc } = props.item;
 
+  const headingClassName = props.theme === "dark" ? "small--dark" : "small";
+  const descClassName = props.theme === "dark" ? "text-dark" : "text";
   return (
-    <article className={styled.class}>
-      <figure>
+    <article className={styled.item}>
+      <figure className={styled[props.className]}>
         <img src={image} alt={heading} />
       </figure>
 
-      <div className={styled.class__info}></div>
-      <Heading className="small" heading={heading} />
-      <p className="text">{desc}</p>
+      <div className={styled.item__info}></div>
+      <Heading className={headingClassName} heading={heading} />
+      <p className={descClassName}>{desc}</p>
     </article>
   );
 };

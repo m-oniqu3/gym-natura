@@ -27,3 +27,8 @@
 .small {
     font-size: clamp(1.5rem, 5vw, 2rem);
 }
+
+.small--dark {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    color: var(--secondary);
+}
