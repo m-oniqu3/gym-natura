@@ -1,9 +1,9 @@
 import React from "react";
-import styled from "./Class.module.css";
-import Heading from "../helpers/heading/Heading";
+import styled from "./Item.module.css";
+import Heading from "../heading/Heading";
 
-const Class = (props) => {
-  const { image, heading, desc } = props.program;
+const Item = (props) => {
+  const { image, heading, desc } = props.item;
 
   return (
     <article className={styled.class}>
@@ -18,4 +18,4 @@ const Class = (props) => {
   );
 };
 
-export default Class;
+export default Item;

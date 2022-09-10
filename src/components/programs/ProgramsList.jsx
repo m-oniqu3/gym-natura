@@ -2,12 +2,12 @@ import React from "react";
 import styled from "./ProgramsList.module.css";
 import Heading from "../helpers/heading/Heading";
 import Container from "../helpers/wrapper/Container";
-import Class from "./Class";
 import { classes } from "./classes";
+import Item from "../helpers/item/Item";
 
 const ProgramsList = () => {
   const programs = classes.map((program) => {
-    return <Class key={program.id} program={program} />;
+    return <Item key={program.id} item={program} />;
   });
 
   return (
