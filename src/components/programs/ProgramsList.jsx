@@ -15,7 +15,7 @@ const ProgramsList = () => {
   return (
     <section className={styled.programs}>
       <Container>
-        <article>
+        <article className={styled.programs__content}>
           <Heading className="medium" heading="our programs" />
           <p className="text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis morbi

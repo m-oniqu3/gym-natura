@@ -1,9 +1,7 @@
 .program {
     width: 100%;
     height: 25rem;
-    background: red;
 }
-
 
 .program img,
 .location img {
@@ -12,5 +10,9 @@
 }
 
 .item__info {
-    margin: 1rem 0 2rem;
+    margin: 1.5rem 0 2rem;
+}
+
+.item__info h1 {
+    margin-bottom: .5rem
 }

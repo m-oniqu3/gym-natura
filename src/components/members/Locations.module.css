@@ -1,0 +1,19 @@
+.locations {
+    padding: 3rem 0;
+}
+
+.locations__content {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.locations__content h1 {
+    margin-bottom: .5rem;
+}
+
+.locations__list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+}
