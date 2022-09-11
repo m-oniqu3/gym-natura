@@ -1,5 +1,7 @@
 # Natura | For The Woman Who Wants It All
 
+[View Live Site](https://gym-natura.vercel.app/)
+
 Natura is a women-only gym that provides a safe, supportive environment for women of all shapes, sizes, and fitness levels. Their goal is to help women feel confident and comfortable in their own skin, and to encourage them to lead healthy, active lifestyles.
 
 ![Screenshot of home page](/src/assets/screenshot.jpeg)
@@ -7,7 +9,7 @@ Natura is a women-only gym that provides a safe, supportive environment for wome
 ## Description
 
 This project is for Natura, a modern website for a women-only gym, that is fully responsive and was built with React and styled with CSS Modules.
-s
+
 Natura is a fictional women-only gym that was founded with the goal of providing a safe and welcoming environment for women to pursue their fitness goals. They saw how many women felt uncomfortable in traditional gyms, and they wanted to create a space where women could feel safe and supported while working on their health and fitness goals.
 
 ## Motivation
@@ -18,7 +20,7 @@ I wanted to create something unique that would grab attention and be visually ap
 
 ## Tools and Technologies
 
-Natura was build using:
+Natura was built using:
 
 - React
 - React Router Dom & React Router HashLink
@@ -26,16 +28,18 @@ Natura was build using:
 
 ## Design File
 
+[Figma Design File](https://www.figma.com/file/w8EGlRw6pVzu6h1xSs16wh/natura?node-id=0%3A1)
+
 ## Installation
 
 To install this project, clone the repository and run the following commands:
 
 ```bash
 npm install
-npm start
+npm run dev or npm run dev -- --host
 ```
 
-This will install all the dependencies and start the development server. The project will be available at [http://localhost3000](http://localhost:3000).
+This will install all the dependencies and start the development server. This project was bootstrapped with Vite and so the project will be available at [http://localhost:5173](http://localhost:3000).
 
 <!-- ## License
 
