@@ -11,9 +11,31 @@
     margin-bottom: .5rem;
 }
 
+.locations__content p {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
 .locations__list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 2rem;
     padding: 2rem 0;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 500px) {
+    .locations__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .locations__list {
+        max-width: 1100px;
+        margin: 0 auto;
+        gap: 5rem;
+    }
 }

@@ -8,6 +8,7 @@
     justify-content: center;
     gap: 1.5rem;
     height: 100vh;
+    max-width: 350px;
 }
 
 .benefits__content--intro button {

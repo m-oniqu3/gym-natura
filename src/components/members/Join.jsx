@@ -11,30 +11,31 @@ const Join = () => {
       convenient. <span>safe.</span> affordable.
     </>
   );
-  return (
-    <section className={styled.join}>
-      <Container>
-        <article className={styled.join__content}>
-          <Heading className="medium--dark" heading={heading} />
-          <p className="text-dark">
-            Aliquam mattis eu semper elit non senectus proin adipiscing in.
-            Aenean sollicitudin risus aliquet id cursus lorem facilisi. Cursus
-            faucibus ut amet vitae convallis phasellus.
-          </p>
 
-          <Button className="primary">Join Natura</Button>
-        </article>
+  return (
+    <Container>
+      <section className={styled.join}>
+        <div>
+          <article className={styled.join__content}>
+            <Heading className="medium--dark" heading={heading} />
+            <p className="text-dark">
+              Aliquam mattis eu semper elit non senectus proin adipiscing in.
+              Aenean sollicitudin risus aliquet id cursus lorem facilisi. Cursus
+              faucibus ut amet vitae convallis phasellus.
+            </p>
+          </article>
+
+          <form>
+            <input type="text" placeholder="Enter your email" />
+            <Button className="neutral">Join Natura</Button>
+          </form>
+        </div>
 
         <figure className={styled.join__image}>
           <img src={exercise} alt="Woman in the gym exercising" />
         </figure>
-
-        <form>
-          <input type="text" placeholder="Enter your email" />
-          <Button className="neutral">Join Natura</Button>
-        </form>
-      </Container>
-    </section>
+      </section>
+    </Container>
   );
 };
 

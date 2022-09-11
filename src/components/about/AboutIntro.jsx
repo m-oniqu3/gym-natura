@@ -12,23 +12,21 @@ const AboutIntro = () => {
   );
   return (
     <section className={styled.intro}>
-      <Container>
-        <div className={styled.intro__grid}>
-          <article className={styled.intro__content}>
-            <Heading className="medium" heading={heading} />
-            <p className="text">
-              Aliquam mattis eu semper elit non senectus proin adipiscing in.
-              Aenean sollicitudin risus aliquet id cursus lorem facilisi. Cursus
-              faucibus ut amet vitae convallis phasellus.
-            </p>
+      <Container className={styled.intro__grid}>
+        <article className={styled.intro__content}>
+          <Heading className="medium" heading={heading} />
+          <p className="text">
+            Aliquam mattis eu semper elit non senectus proin adipiscing in.
+            Aenean sollicitudin risus aliquet id cursus lorem facilisi. Cursus
+            faucibus ut amet vitae convallis phasellus.
+          </p>
 
-            <p className="text">
-              Nisi facilisi vestibulum id felis libero dictum. Ullamcorper id
-              est est posuere ut. Sagittis, viverra gravida ornare nunc arcu.
-            </p>
-            <Button className="primary">Join Natura</Button>
-          </article>
-        </div>
+          <p className="text">
+            Nisi facilisi vestibulum id felis libero dictum. Ullamcorper id est
+            est posuere ut. Sagittis, viverra gravida ornare nunc arcu.
+          </p>
+          <Button className="primary">Join Natura</Button>
+        </article>
       </Container>
     </section>
   );

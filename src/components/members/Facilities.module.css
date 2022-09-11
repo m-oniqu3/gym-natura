@@ -19,4 +19,12 @@
     align-items: center;
     text-align: center;
     height: 100vh;
+    width: min(100%, 450px);
+    margin: auto;
+    gap: .5rem;
+}
+
+.facility__content p {
+    width: min(100%, 350px);
+    margin: 0 auto;
 }

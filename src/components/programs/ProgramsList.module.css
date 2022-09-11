@@ -12,6 +12,7 @@
     margin-bottom: .5rem;
 }
 
+
 .programs__list {
     display: grid;
     grid-template-columns: 1fr;
@@ -20,6 +21,9 @@
     padding: 2rem 0;
 }
 
+.programs__list p {
+    max-width: 17rem;
+}
 
 /* Media Queries */
 

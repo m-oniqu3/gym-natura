@@ -8,9 +8,7 @@
 
 .intro__grid {
     display: grid;
-
     height: 100vh;
-
 }
 
 .intro__content {
@@ -18,7 +16,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 1.5rem;
-
+    max-width: 350px;
 }
 
 .intro__content button {
@@ -43,6 +41,7 @@
 @media (min-width: 768px) {
     .intro__content {
         grid-column: 3/6;
+        width: 100%;
     }
 }
 
