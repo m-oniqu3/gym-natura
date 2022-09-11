@@ -4,6 +4,7 @@
     background-position: 30%;
     background-repeat: no-repeat;
     height: 100vh;
+    scroll-snap-align: start;
 }
 
 .intro__grid {

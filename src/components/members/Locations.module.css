@@ -1,5 +1,6 @@
 .locations {
     padding: 3rem 0;
+    scroll-snap-align: start;
 }
 
 .locations__content {

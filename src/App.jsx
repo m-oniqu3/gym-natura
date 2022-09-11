@@ -7,13 +7,13 @@ import Programs from "./components/programs/Programs";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Hero />
       <About />
       <Programs />
       <Members />
       <Footer />
-    </>
+    </div>
   );
 }
 

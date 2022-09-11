@@ -3,7 +3,8 @@
     background-size: cover;
     background-position: 68%;
     background-repeat: no-repeat;
-    height: 120vh;
+    height: 100vh;
+    scroll-snap-align: start;
 }
 
 .hero__content--container {
@@ -50,9 +51,9 @@
 }
 
 @media (min-width:768px) {
-    .hero {
+    /* .hero {
         height: 100vh;
-    }
+    } */
 
     .hero__content--container {
         grid-template-columns: repeat(6, 1fr);

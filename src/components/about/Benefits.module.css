@@ -1,5 +1,6 @@
 .benefits__container {
     background-color: var(--secondary-dark);
+    scroll-snap-align: start;
 }
 
 .benefits__content--intro {

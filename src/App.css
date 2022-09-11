@@ -25,3 +25,9 @@
   color: var(--secondary-dark);
   line-height: 21px;
 }
+
+.app {
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
+}

@@ -2,6 +2,7 @@
     background: linear-gradient(180deg, #000000 31.56%, #484554 100%);
     text-align: center;
     padding: 3rem 0;
+    scroll-snap-align: start;
 }
 
 .intro__content--info {

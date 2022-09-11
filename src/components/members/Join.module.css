@@ -2,6 +2,7 @@
     display: grid;
     gap: 4rem;
     padding: 2rem 0;
+    scroll-snap-align: start;
 }
 
 .join__content {

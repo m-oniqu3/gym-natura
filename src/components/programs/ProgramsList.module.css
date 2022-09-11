@@ -1,6 +1,7 @@
 .programs {
     background: linear-gradient(180deg, #484554 8.58%, #181818 88.69%);
     padding: 2rem 0;
+    scroll-snap-align: start;
 }
 
 .programs__content {
