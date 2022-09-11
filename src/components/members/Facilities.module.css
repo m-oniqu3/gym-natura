@@ -31,8 +31,3 @@
     margin: auto;
     gap: .5rem;
 }
-
-.facility__content p {
-    width: min(100%, 350px);
-    margin: 0 auto;
-}

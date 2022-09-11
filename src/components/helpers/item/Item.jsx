@@ -7,7 +7,7 @@ const Item = (props) => {
 
   // classNames to be applied based on the theme
   const headingClassName = props.theme === "light" ? "small" : "small--dark";
-  const descClassName = props.theme === "light" ? "text" : "text-dark";
+  const descClassName = props.theme === "light" ? "text" : "text--dark";
 
   return (
     <article className={styled.item}>

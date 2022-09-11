@@ -27,7 +27,7 @@ export const classes = [
     id: "4",
     image:
       "https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-    heading: "kickboxing",
+    heading: "personal training",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum dolor sit amet.",
   },
 ];

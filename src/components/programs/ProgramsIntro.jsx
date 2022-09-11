@@ -18,14 +18,17 @@ const ProgramsIntro = () => {
         <article className={styled["intro__content--info"]}>
           <Heading className="medium" heading={heading} />
           <p className="text">
-            Aliquam mattis eu semper elit non senectus proin adipiscing in.
-            Aenean sollicitudin risus aliquet id cursus lorem facilisi. Cursus
-            faucibus ut amet vitae convallis phasellus.
+            With experienced and certified instructors, Natura is the perfect
+            place to get started on your fitness journey or take your workout to
+            the next level. We offer a variety of classes designed to help women
+            of all shapes and sizes.
           </p>
 
           <p className="text">
-            Nisi facilisi vestibulum id felis libero dictum. Ullamcorper id est
-            est posuere ut. Sagittis, viverra gravida ornare nunc arcu.
+            Our classes include everything from yoga and pilates to kickboxing
+            and strength & personal training, nutritional counseling, and
+            massages plus workshops that focus on topics such as body image,
+            self-care,
           </p>
           <Button className="primary" link="#classes">
             See Programs

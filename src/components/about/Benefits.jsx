@@ -17,14 +17,16 @@ const Benefits = () => {
           <article className={styled["benefits__content--intro"]}>
             <Heading className="medium" heading={heading} />
             <p className="text">
-              Aliquam mattis eu semper elit non senectus proin adipiscing in.
-              Aenean sollicitudin risus aliquet id cursus lorem facilisi. Cursus
-              faucibus ut amet vitae convallis phasellus.
+              As a women-only gym, our main focus is to help women build
+              confidence through working out and staying healthy. We offer a
+              variety of classes and programs that are designed to help women of
+              all fitness levels reach their goals.
             </p>
 
             <p className="text">
-              Nisi facilisi vestibulum id felis libero dictum. Ullamcorper id
-              est est posuere ut. Sagittis, viverra gravida ornare nunc arcu.
+              With Natura you can gain access to a supportive community of
+              women, improving your overall fitness, and increasing your
+              self-confidence.
             </p>
             <Button link="#locations" className="primary">
               See Locations

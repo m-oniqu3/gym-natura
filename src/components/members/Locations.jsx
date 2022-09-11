@@ -16,9 +16,9 @@ const Locations = () => {
       <Container>
         <article className={styled.locations__content}>
           <Heading className="medium--dark" heading="be part of the elite" />
-          <p className="text-dark">
-            Risus aliquet id cursus lorem facilisi. Cursus faucibus ut amet
-            vitae convallis phasellus.
+          <p className="text--dark">
+            Whether you're just starting out on your fitness journey or you're a
+            seasoned pro, we have something for everyone.
           </p>
         </article>
 

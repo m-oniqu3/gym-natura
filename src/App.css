@@ -18,12 +18,12 @@
 
 .text {
   color: var(--white);
-  line-height: 21px;
+  line-height: 25px;
 }
 
 .text--dark {
   color: var(--secondary-dark);
-  line-height: 21px;
+  line-height: 25px;
 }
 
 .app {

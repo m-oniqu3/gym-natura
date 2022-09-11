@@ -21,10 +21,9 @@ const Hero = () => {
           <article className={styled.hero__content}>
             <Heading className="large" heading={heading} />
             <p className="text">
-              Natura is a women-only gym that provides a safe and welcoming
-              space for women of all ages and sizes.Our goal is to help women
-              feel confident and comfortable in their own skin, and to encourage
-              them to lead healthy, active lifestyles.
+              We believe women should exercise in safe and welcoming space. Our
+              goal is to help women feel confident and comfortable in their own
+              skin, and to encourage them to lead healthy, active lifestyles.
             </p>
 
             <Button className="primary" link="#membership">

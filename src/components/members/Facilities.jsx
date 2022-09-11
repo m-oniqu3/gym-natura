@@ -20,8 +20,9 @@ const Facilities = () => {
           <article className={styled.facility__content}>
             <Heading className="medium" heading={heading} />
             <p className="text">
-              Risus aliquet id cursus lorem facilisi. Cursus faucibus ut amet
-              vitae convallis phasellus.
+              Take advantage of out private locker rooms, showers, well-equipped
+              gym floor, saunas, eucalyptus-infused towels, and hair & makeup
+              stations.
             </p>
           </article>
         </Container>
