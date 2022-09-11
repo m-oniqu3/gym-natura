@@ -3,6 +3,8 @@ import styled from "./Navbar.module.css";
 import { RiMenuLine } from "react-icons/ri";
 import logo from "../../assets/logo.png";
 import Menu from "./Menu";
+import { HashLink as Link } from "react-router-hash-link";
+import Button from "../helpers/button/Button";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +33,26 @@ const Navbar = () => {
           color="var(--primary)"
           onClick={handleMenu}
         />
+
+        <ul className={styled.nav__items}>
+          <li>
+            <Link to="#home">Home</Link>
+          </li>
+
+          <li>
+            <Link to="#programs">Programs</Link>
+          </li>
+
+          <li>
+            <Link to="#facilities">Facilities</Link>
+          </li>
+
+          <li>
+            <Link to="#locations">Locations</Link>
+          </li>
+        </ul>
+
+        <Button className="secondary">View Classes</Button>
       </nav>
 
       {isOpen && <Menu isOpen={isOpen} setIsOpen={setIsOpen} />}

@@ -35,3 +35,49 @@
 .nav__icon {
     cursor: pointer;
 }
+
+.nav__items,
+.nav button {
+    display: none;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .nav__icon {
+        display: none;
+    }
+
+    .nav__items {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .nav__items {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .nav__items a {
+        text-decoration: none;
+        color: var(--primary);
+        transition: all .3s ease-in-out;
+    }
+
+    .nav__items a:hover {
+        color: var(--white);
+    }
+
+    .nav button {
+        display: grid;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav__items {
+        gap: 3rem;
+    }
+}

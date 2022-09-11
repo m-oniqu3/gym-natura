@@ -27,9 +27,9 @@
 }
 
 .secondary:hover {
-    background-color: var(--secondary);
-    color: var(--white);
-    border: 1px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 1px solid var(--primary);
 }
 
 .neutral {
