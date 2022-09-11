@@ -13,7 +13,7 @@
     max-width: 350px;
 }
 
-.intro__content--info button {
+.intro__content--info a {
     width: fit-content;
     margin: 0 auto;
 }
@@ -43,7 +43,7 @@
         text-align: left;
     }
 
-    .intro__content--info button {
+    .intro__content--info a {
         margin: 0;
     }
 

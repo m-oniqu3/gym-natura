@@ -13,7 +13,7 @@ const ProgramsIntro = () => {
   );
 
   return (
-    <section className={styled.intro}>
+    <section className={styled.intro} id="programs">
       <Container className={styled.intro__content}>
         <article className={styled["intro__content--info"]}>
           <Heading className="medium" heading={heading} />
@@ -27,7 +27,9 @@ const ProgramsIntro = () => {
             Nisi facilisi vestibulum id felis libero dictum. Ullamcorper id est
             est posuere ut. Sagittis, viverra gravida ornare nunc arcu.
           </p>
-          <Button className="primary">See Programs</Button>
+          <Button className="primary" link="#classes">
+            See Programs
+          </Button>
         </article>
 
         <figure className={styled["intro__content--image"]}>

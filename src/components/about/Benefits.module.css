@@ -14,7 +14,7 @@
     max-width: 350px;
 }
 
-.benefits__content--intro button {
+.benefits__content--intro a {
     width: fit-content;
 }
 

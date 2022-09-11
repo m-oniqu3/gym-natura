@@ -73,6 +73,23 @@
     padding: 1rem 0;
     background-color: var(--secondary);
     text-align: center;
+    list-style: none;
+}
+
+.footer__logo li {
+    padding-top: .5rem;
+}
+
+.footer__logo a {
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.footer__logo a:hover {
+    color: var(--primary);
+    text-decoration: underline;
 }
 
 /* Media Queries */
@@ -104,6 +121,10 @@
 
     .footer__contact--info h3 {
         margin: 0;
+    }
+
+    .footer__icons {
+        margin-top: 1rem;
     }
 }
 

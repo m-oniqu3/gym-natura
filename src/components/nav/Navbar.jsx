@@ -5,17 +5,25 @@ import logo from "../../assets/logo.png";
 import Menu from "./Menu";
 import { HashLink as Link } from "react-router-hash-link";
 import Button from "../helpers/button/Button";
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { hash } = useLocation();
 
   // toggle menu state
   const handleMenu = () => setIsOpen((state) => !state);
 
+  // prevent scrolling when menu is open
   useEffect(() => {
     if (isOpen) document.body.style.overflow = "hidden";
     else if (!isOpen) document.body.style.overflow = "auto";
   }, [isOpen]);
+
+  //close menu when hash changes
+  useEffect(() => {
+    setIsOpen(false);
+  }, [hash]);
 
   return (
     <>
@@ -36,23 +44,41 @@ const Navbar = () => {
 
         <ul className={styled.nav__items}>
           <li>
-            <Link to="#home">Home</Link>
+            <Link smooth to="#home">
+              Home
+            </Link>
           </li>
 
           <li>
-            <Link to="#programs">Programs</Link>
+            <Link smooth to="#about">
+              About
+            </Link>
           </li>
 
           <li>
-            <Link to="#facilities">Facilities</Link>
+            <Link smooth to="#programs">
+              Programs
+            </Link>
           </li>
 
           <li>
-            <Link to="#locations">Locations</Link>
+            <Link smooth to="#facilities">
+              Facilities
+            </Link>
+          </li>
+
+          <li>
+            <Link smooth to="#locations">
+              Locations
+            </Link>
           </li>
         </ul>
 
-        <Button className="secondary">View Classes</Button>
+        <div className={styled.nav__button}>
+          <Button link="#classes" className="secondary">
+            View Classes
+          </Button>
+        </div>
       </nav>
 
       {isOpen && <Menu isOpen={isOpen} setIsOpen={setIsOpen} />}

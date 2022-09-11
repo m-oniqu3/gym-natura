@@ -19,7 +19,7 @@
     max-width: 350px;
 }
 
-.intro__content button {
+.intro__content a {
     width: fit-content;
 }
 

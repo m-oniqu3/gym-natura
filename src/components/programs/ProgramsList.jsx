@@ -13,7 +13,7 @@ const ProgramsList = () => {
   });
 
   return (
-    <section className={styled.programs}>
+    <section className={styled.programs} id="classes">
       <Container>
         <article className={styled.programs__content}>
           <Heading className="medium" heading="our programs" />

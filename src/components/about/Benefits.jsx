@@ -26,7 +26,9 @@ const Benefits = () => {
               Nisi facilisi vestibulum id felis libero dictum. Ullamcorper id
               est est posuere ut. Sagittis, viverra gravida ornare nunc arcu.
             </p>
-            <Button className="primary">See Locations</Button>
+            <Button link="#locations" className="primary">
+              See Locations
+            </Button>
           </article>
         </Container>
 

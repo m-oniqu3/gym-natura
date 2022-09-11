@@ -14,7 +14,7 @@ const Join = () => {
 
   return (
     <Container>
-      <section className={styled.join}>
+      <section className={styled.join} id="membership">
         <div>
           <article className={styled.join__content}>
             <Heading className="medium--dark" heading={heading} />

@@ -26,19 +26,33 @@ const Menu = ({ isOpen, setIsOpen }) => {
 
         <ul className={styled.menu__items}>
           <li>
-            <Link to="#home">Home</Link>
+            <Link smooth to="#home">
+              Home
+            </Link>
           </li>
 
           <li>
-            <Link to="#programs">Programs</Link>
+            <Link smooth to="#about">
+              About
+            </Link>
           </li>
 
           <li>
-            <Link to="#facilities">Facilities</Link>
+            <Link smooth to="#programs">
+              Programs
+            </Link>
           </li>
 
           <li>
-            <Link to="#locations">Locations</Link>
+            <Link smooth to="#facilities">
+              Facilities
+            </Link>
+          </li>
+
+          <li>
+            <Link smooth to="#locations">
+              Locations
+            </Link>
           </li>
         </ul>
       </Container>

@@ -1,11 +1,17 @@
 import React from "react";
 import styled from "./Button.module.css";
+import { HashLink as Link } from "react-router-hash-link";
+import { useNavigate } from "react-router-dom";
 
 const Button = (props) => {
   return (
-    <button className={`${styled.button} ${styled[props.className]}`}>
+    <Link
+      smooth
+      to={props?.link ?? ""}
+      className={`${styled.button} ${styled[props.className]}`}
+    >
       {props.children}
-    </button>
+    </Link>
   );
 };
 

@@ -13,7 +13,7 @@ const Hero = () => {
   );
 
   return (
-    <section className={styled.hero}>
+    <section className={styled.hero} id="home">
       <Container>
         <Navbar />
 
@@ -26,7 +26,9 @@ const Hero = () => {
               habitant dolor.
             </p>
 
-            <Button className="primary">Become a Member</Button>
+            <Button className="primary" link="#membership">
+              Become a Member
+            </Button>
           </article>
         </div>
       </Container>

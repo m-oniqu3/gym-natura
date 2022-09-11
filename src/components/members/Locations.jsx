@@ -12,7 +12,7 @@ const Locations = () => {
   });
 
   return (
-    <section className={styled.locations}>
+    <section className={styled.locations} id="locations">
       <Container>
         <article className={styled.locations__content}>
           <Heading className="medium--dark" heading="be part of the elite" />

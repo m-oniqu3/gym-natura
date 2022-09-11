@@ -11,7 +11,7 @@ const AboutIntro = () => {
     </>
   );
   return (
-    <section className={styled.intro}>
+    <section className={styled.intro} id="about">
       <Container className={styled.intro__grid}>
         <article className={styled.intro__content}>
           <Heading className="medium" heading={heading} />
@@ -25,7 +25,9 @@ const AboutIntro = () => {
             Nisi facilisi vestibulum id felis libero dictum. Ullamcorper id est
             est posuere ut. Sagittis, viverra gravida ornare nunc arcu.
           </p>
-          <Button className="primary">Join Natura</Button>
+          <Button link="#membership" className="primary">
+            Join Natura
+          </Button>
         </article>
       </Container>
     </section>

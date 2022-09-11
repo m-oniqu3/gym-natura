@@ -10,7 +10,7 @@ const Facilities = () => {
     </>
   );
   return (
-    <section className={styled.facility}>
+    <section className={styled.facility} id="facilities">
       <div className={styled.facility__overlay}>
         <Container>
           <article className={styled.facility__content}>

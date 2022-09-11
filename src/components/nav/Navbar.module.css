@@ -37,7 +37,7 @@
 }
 
 .nav__items,
-.nav button {
+.nav__button {
     display: none;
 }
 
@@ -46,12 +46,6 @@
 @media (min-width: 768px) {
     .nav__icon {
         display: none;
-    }
-
-    .nav__items {
-        display: flex;
-        align-items: center;
-        gap: 2rem;
     }
 
     .nav__items {
@@ -71,7 +65,7 @@
         color: var(--white);
     }
 
-    .nav button {
+    .nav__button {
         display: grid;
     }
 }

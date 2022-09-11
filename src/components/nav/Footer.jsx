@@ -17,19 +17,33 @@ const Footer = () => {
         <ul className={styled.footer__links}>
           <Heading className="small--dark" heading="Links" />
           <li>
-            <Link to="#home">Home</Link>
+            <Link smooth to="#home">
+              Home
+            </Link>
           </li>
 
           <li>
-            <Link to="#programs">Programs</Link>
+            <Link smooth to="#about">
+              About
+            </Link>
           </li>
 
           <li>
-            <Link to="#facilities">Facilities</Link>
+            <Link smooth to="#programs">
+              Programs
+            </Link>
           </li>
 
           <li>
-            <Link to="#locations">Locations</Link>
+            <Link smooth to="#facilities">
+              Facilities
+            </Link>
+          </li>
+
+          <li>
+            <Link smooth to="#locations">
+              Locations
+            </Link>
           </li>
         </ul>
 
@@ -73,9 +87,19 @@ const Footer = () => {
           </div>
         </div>
       </Container>
-      <div className={styled.footer__logo}>
+
+      <ul className={styled.footer__logo}>
         <Heading className="small" heading="natura" />
-      </div>
+        <li>
+          <a
+            target="_blank"
+            href="https://github.com/m-oniqu3?tab=repositories"
+            rel="noreferrer"
+          >
+            Designed & Developed by Monique
+          </a>
+        </li>
+      </ul>
     </footer>
   );
 };
