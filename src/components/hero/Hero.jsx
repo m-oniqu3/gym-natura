@@ -11,24 +11,24 @@ const Hero = () => {
       THE EVOLUTION OF <span> fitness</span> for <span>her</span>
     </>
   );
+
   return (
     <section className={styled.hero}>
       <Container>
         <Navbar />
 
-        <article className={styled.hero__content}>
-          <Heading className="large" heading={heading} />
-          <p className="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis morbi
-            malesuada sem vitae vestibulum. Amet viverra ipsum in cras habitant
-            dolor.
-          </p>
+        <div className={styled["hero__content--container"]}>
+          <article className={styled.hero__content}>
+            <Heading className="large" heading={heading} />
+            <p className="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis
+              morbi malesuada sem vitae vestibulum. Amet viverra ipsum in cras
+              habitant dolor.
+            </p>
 
-          <div className={styled["hero__content--btns"]}>
             <Button className="primary">Become a Member</Button>
-            <Button className="secondary">View Classes</Button>
-          </div>
-        </article>
+          </article>
+        </div>
       </Container>
     </section>
   );

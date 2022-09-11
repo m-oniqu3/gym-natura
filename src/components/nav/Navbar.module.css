@@ -31,3 +31,7 @@
     letter-spacing: 0.05em;
     font-family: 'Bebas Neue', cursive;
 }
+
+.nav__icon {
+    cursor: pointer;
+}

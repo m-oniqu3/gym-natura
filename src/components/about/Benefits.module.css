@@ -8,6 +8,9 @@
     justify-content: center;
     gap: 1.5rem;
     height: 100vh;
+}
+
+.benefits__content--intro p {
     max-width: 350px;
 }
 
@@ -34,7 +37,6 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
 
 @media (min-width: 800px) {
     .benefits {

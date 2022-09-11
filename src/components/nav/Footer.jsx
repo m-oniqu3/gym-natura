@@ -12,8 +12,8 @@ import {
 
 const Footer = () => {
   return (
-    <footer className={styled.footer}>
-      <Container>
+    <footer className={styled.footer__container}>
+      <Container className={styled.footer}>
         <ul className={styled.footer__links}>
           <Heading className="small--dark" heading="Links" />
           <li>
@@ -65,9 +65,12 @@ const Footer = () => {
         </article>
 
         <div className={styled.footer__icons}>
-          <FaInstagramSquare size={35} color="var(--secondary)" />
-          <FaFacebookSquare size={35} color="var(--secondary)" />
-          <FaTwitterSquare size={35} color="var(--secondary)" />
+          <Heading className="small--dark" heading="social media" />
+          <div className={styled["footer__icons--icons"]}>
+            <FaInstagramSquare size={35} color="var(--secondary)" />
+            <FaFacebookSquare size={35} color="var(--secondary)" />
+            <FaTwitterSquare size={35} color="var(--secondary)" />
+          </div>
         </div>
       </Container>
       <div className={styled.footer__logo}>

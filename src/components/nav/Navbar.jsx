@@ -25,7 +25,12 @@ const Navbar = () => {
           <p>Natura</p>
         </div>
 
-        <RiMenuLine size={25} color="var(--primary)" onClick={handleMenu} />
+        <RiMenuLine
+          className={styled.nav__icon}
+          size={25}
+          color="var(--primary)"
+          onClick={handleMenu}
+        />
       </nav>
 
       {isOpen && <Menu isOpen={isOpen} setIsOpen={setIsOpen} />}
