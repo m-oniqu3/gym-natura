@@ -1,8 +1,8 @@
 .footer__container {
     border-top: 1px solid rgba(72, 69, 84, 0.51);
     padding-top: 2rem;
-    scroll-snap-align: start;
-    height: 100%;
+    scroll-snap-align: start end;
+    height: fit-content
 }
 
 .footer article {
@@ -59,7 +59,6 @@
 }
 
 .footer__icons {
-    scroll-snap-align: start;
     max-width: 200px;
 }
 
