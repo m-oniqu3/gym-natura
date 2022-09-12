@@ -14,12 +14,6 @@ const Navbar = () => {
   // toggle menu state
   const handleMenu = () => setIsOpen((state) => !state);
 
-  // prevent scrolling when menu is open
-  useEffect(() => {
-    if (isOpen) document.body.style.overflow = "hidden";
-    else if (!isOpen) document.body.style.overflow = "auto";
-  }, [isOpen]);
-
   //close menu when hash changes
   useEffect(() => {
     setIsOpen(false);

@@ -6,7 +6,7 @@ import { createPortal } from "react-dom";
 import logo from "../../assets/logo.png";
 import { IoCloseSharp } from "react-icons/io5";
 
-const Menu = ({ isOpen, setIsOpen }) => {
+const Menu = ({ setIsOpen }) => {
   // close menu
   const handleMenu = () => setIsOpen(false);
 

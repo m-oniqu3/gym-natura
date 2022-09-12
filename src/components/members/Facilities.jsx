@@ -20,7 +20,7 @@ const Facilities = () => {
           <article className={styled.facility__content}>
             <Heading className="medium" heading={heading} />
             <p className="text">
-              Take advantage of out private locker rooms, showers, well-equipped
+              Take advantage of our private locker rooms, showers, well-equipped
               gym floor, saunas, eucalyptus-infused towels, and hair & makeup
               stations.
             </p>
