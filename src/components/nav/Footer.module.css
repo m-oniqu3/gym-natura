@@ -1,8 +1,8 @@
 .footer__container {
     border-top: 1px solid rgba(72, 69, 84, 0.51);
     padding-top: 2rem;
-    scroll-snap-align: start end;
-    height: fit-content
+    height: max-content;
+    scroll-snap-align: end;
 }
 
 .footer article {
