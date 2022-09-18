@@ -32,7 +32,7 @@ Natura was built using:
 
 ## Installation
 
-To install this project, clone the repository and run the following commands:
+To install this project, clone or download the repository and run the following commands:
 
 ```bash
 npm install
